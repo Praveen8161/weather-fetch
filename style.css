@@ -12,8 +12,9 @@ body{
 #country-card{
     background-color: transparent;
     border: none;
-    height: 80vh;
+    height: fit-content;
     margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .card-content{

@@ -30,7 +30,7 @@ fetch("https://restcountries.com/v3.1/all")
 
 function cardCreate(ele,data,index){
     row.innerHTML += `
-    <div class="col-lg-4 col-sm-12 col-md-6 card" id="country-card">
+    <div class="col-lg-4 col-sm-12 col-md-6" id="country-card">
         <div class="card-content">
             <p class="country-name card-header"><span>${ele.countryName}</span></p> 
             <img src="${ele.flag}" alt="${ele.countryName}" class="image" loading="lazy">
